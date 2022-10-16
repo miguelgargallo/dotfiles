@@ -1,7 +1,5 @@
 # Readme of .dotfiles from Miguel Gargallo
 
-# Readme of .dotfiles by @miguelgargallo
-
 ## Commit ammended
 
 After doing this, you can run the following command to generate the documentation:
