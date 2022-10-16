@@ -1,0 +1,7 @@
+    "window.zoomLevel": 0.25,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "Menlo, 'DejaVu Sans Mono', Consolas, 'Lucida Console', monospace",
+    "workbench.colorTheme": "Hyper Term Black",
+    "editor.cursorStyle": "block",
+    "editor.minimap.enabled": true,
+    "editor.renderLineHighlight": "none"
