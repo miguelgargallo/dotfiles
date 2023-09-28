@@ -1,0 +1,1 @@
+Here goes some cool staff 1 line bash installs
