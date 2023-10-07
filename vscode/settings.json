@@ -1,0 +1,62 @@
+{
+    /* The Theme */
+    "workbench.colorTheme": "Hyper Term Black",
+    "workbench.preferredDarkColorTheme": "Hyper Term Black",
+    /* The Theme Settings */
+    "editor.cursorStyle": "line",
+    /* The Fonts */
+    "editor.fontFamily": "'Comic Code Ligatures'",
+    /* The Fonts - Common */
+    "editor.inlayHints.fontFamily": "'Comic Code Ligatures'",
+    "scm.inputFontFamily": "'Comic Code Ligatures'",
+    "debug.console.fontFamily": "'Comic Code Ligatures'",
+    "editor.codeLensFontFamily": "'Comic Code Ligatures'",
+    "notebook.output.fontFamily": "'Comic Code Ligatures'",
+    "markdown.preview.fontFamily": "'Comic Code Ligatures'",
+    "chat.editor.fontFamily": "'Comic Code Ligatures'",
+    /* The Fonts - Terminal */
+    "terminal.integrated.fontFamily": "'ComicShannsMono Nerd Font Mono'",
+    /* The Fonts Settings */
+    "editor.fontLigatures": true,
+    "editor.fontVariations": true,
+    "editor.mouseWheelZoom": true,
+    "terminal.integrated.fontSize": 12,
+    "chat.editor.fontSize": 12,
+    "markdown.preview.fontSize": 12,
+    "scm.inputFontSize": 12,
+    "debug.console.fontSize": 12,
+    "editor.fontSize": 12,
+    /* Editor Color Custom infiles */
+    /* "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "variable",
+                "settings": {
+                    "foreground": "#CACACA"
+                }
+            },
+            {
+                "scope": "variable.other.readwrite.alias",
+                "settings": {
+                    "foreground": "#9effab"
+                }
+            },
+            {
+                "scope": "entity.name.tag",
+                "settings": {
+                    "foreground": "#b0ffff"
+                }
+            }
+        ]
+    }, */
+    /* Icons */
+    "workbench.productIconTheme": "fluent-icons",
+    /* Icon Settings */
+    "symbols.hidesExplorerArrows": false,
+    /* Icon Addons */
+    "workbench.iconTheme": "symbols",
+    /* Terminal Settings */
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": false,
+    /* Other Settings */
+}
