@@ -1,12 +1,26 @@
 {
-    /* The Theme */
+    /* Theme */
     "workbench.colorTheme": "Hyper Term Black",
     "workbench.preferredDarkColorTheme": "Hyper Term Black",
-    /* The Theme Settings */
+    /* GUI Customizations */
+    "workbench.sideBar.location": "right",
+    "editor.mouseWheelZoom": true,
+    "editor.minimap.enabled": true,
+    "editor.minimap.showSlider": "always",
+    "editor.minimap.renderCharacters": true,
+    "editor.minimap.maxColumn": 125,
+    "editor.minimap.scale": 1,
+    "editor.minimap.size": "fill",
+    "editor.minimap.autohide": false,
+    "editor.minimap.side": "right",
+    /* Theme Settings */
     "editor.cursorStyle": "line",
-    /* The Fonts */
+    "editor.cursorBlinking": "solid",
+    "editor.cursorSmoothCaretAnimation": "explicit",
+    "editor.cursorWidth": 1,
+    /* Fonts */
     "editor.fontFamily": "'Comic Code Ligatures'",
-    /* The Fonts - Common */
+    /* Fonts - Common */
     "editor.inlayHints.fontFamily": "'Comic Code Ligatures'",
     "scm.inputFontFamily": "'Comic Code Ligatures'",
     "debug.console.fontFamily": "'Comic Code Ligatures'",
@@ -14,12 +28,12 @@
     "notebook.output.fontFamily": "'Comic Code Ligatures'",
     "markdown.preview.fontFamily": "'Comic Code Ligatures'",
     "chat.editor.fontFamily": "'Comic Code Ligatures'",
-    /* The Fonts - Terminal */
+    /* Fonts - Terminal */
     "terminal.integrated.fontFamily": "'ComicShannsMono Nerd Font Mono'",
-    /* The Fonts Settings */
+    /* Fonts Editor Settings */
     "editor.fontLigatures": true,
     "editor.fontVariations": true,
-    "editor.mouseWheelZoom": true,
+    /* Fonts Size */
     "terminal.integrated.fontSize": 12,
     "chat.editor.fontSize": 12,
     "markdown.preview.fontSize": 12,
@@ -58,5 +72,54 @@
     /* Terminal Settings */
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.cursorBlinking": false,
+    "terminal.integrated.profiles.windows": {
+        /* "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        }, */
+        "Bash": {
+            "path": "C:\\Program Files\\Git\\bin\\bash.exe",
+            "args": [
+                "--login",
+                "-i"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "Bash",
+    "git.confirmSync": false,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    /* "vscode-edge-devtools.browserFlavor": "Stable",
+    "vscode-edge-devtools.defaultEntrypoint": "",
+    "git.enableSmartCommit": true,
+    // "git.confirmSync": false,
+    // "git.autofetch": true,
+    "svelte.enable-ts-plugin": true,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": true,
+        "scminput": true
+    },
+    "browse-lite.startUrl": "http://localhost:3012",
+    "browse-lite.debugPort": 3012,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false, */
     /* Other Settings */
 }
